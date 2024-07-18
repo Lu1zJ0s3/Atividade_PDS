@@ -1,0 +1,7 @@
+estudante1 = Estudante("João", 20, "123.456.789-00", "20230001")
+print(f'Nome do estudante: {estudante1.nome}')
+print(f'Matrícula do estudante: {estudante1.matricula}')
+print(f'Idade do estudante: {estudante1._idade}')
+print(f'CPF do estudante: {estudante1.get_cpf()}')
+estudante1.set_cpf("987.654.321-00")
+print(f'Novo CPF do estudante: {estudante1.get_cpf()}')
